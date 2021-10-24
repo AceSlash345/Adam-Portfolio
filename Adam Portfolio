@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang"en">
+ <main id="main-doc">
+   <nav id="navbar">
+     <ul>
+       <a href="#projects"><li class="navleft">Projects</li></a>
+       <a href="#about-me"><li class="navleft">About Me</li></a>
+       <a href="#contact"><li class="navleft">Contacts</li></a>
+     </ul>
+     </nav>
+  <section id="introduction">
+  <header id="welcome-section">
+    <h1 id="intro"> My name is Adam Gaskin<br>The Aspiring Front End Developer</h1>
+  </header>
+   </section>
+   <section id="about-me" class="about-me">
+     <h2>About Me</h2>
+     <p>As of 10/24/2021, I am currently a Junior in Florida International University getting my bachelors degree in Computer Science. <br>I hope to get a job as a Front End Developer. I am experienced in HTML, CSS, and soon to be Javascript. I hope whoever reads this a wonderful day and hopefully I get to you know as well.</p>
+   </section>
+   <p id="project-header">These are some of my Projects</p>
+   <section id="projects">
+     <ul class="project-holder">
+       <a href="https://codepen.io/adam345345/pen/yLoJGYO"><li class="project-tile"><img src="https://img-www.tf-cdn.com/artist/10/reol.jpeg" width="200px" height="200px"><br>Reol Tribute</li></a>
+      <a href="https://codepen.io/adam345345/pen/KKvgwOq"><li class="project-tile"><img src="https://images.unsplash.com/photo-1575550959106-5a7defe28b56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" width="200px" height="200px"><br>Nature Survey</li></a>
+      <a href="https://codepen.io/adam345345/pen/zYdKXRz"><li class="project-tile"><img src="https://images.unsplash.com/photo-1503694978374-8a2fa686963a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" width="200px" height="200px"><br>Vatrix Landing Page</li></a>
+      <a href="https://codepen.io/adam345345/pen/qBXqaJo"><li class="project-tile"><img src="https://images.unsplash.com/photo-1465471765877-2e7a264830d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="200px" height="200px"><br>Species Documentation</li></a>
+   </section>
+   <section id="contact">
+    If you want to get to know me better, check me out on the following links below
+   </section>
+   <section>
+     <ul id="contact">
+       <a id="profile-link" href="https://github.com/AceSlash345" target="_blank"><li class="contact">GitHub</li></a>
+       <a id ="profile-link" href="https://www.linkedin.com/in/adam-gaskin-90a514150/" target="_blank"><li class="contact">LinkedIn</li></a>
+     <ul>
+   </section>
+ </main>
+</html>
