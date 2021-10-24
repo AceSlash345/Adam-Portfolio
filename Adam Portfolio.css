@@ -1,0 +1,133 @@
+<style>
+header{  
+}
+body{
+  background-color:#45567d;
+}
+#main-doc{
+}
+#intro{
+text-align:center;
+  margin-top:250px;
+  color:black;
+  font-size:35px;
+  font-family:raleway,sans-serif;
+}
+#project-header{
+  margin-left:-80px;
+  margin-top:500px;
+   font-size:40px;
+  text-align:center;
+  font-family:didot;
+}
+#projects{
+  width:1000px;
+  height:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#navbar{
+  position:fixed;
+  background-color:#be3144;
+  width:100.87%;
+  height:99px;
+  margin-left:-8px;
+  margin-top:-250px;
+  border: 1px solid black;
+}
+#contact{
+  text-align:center;
+  font-size:25px;
+  margin-top:100px;
+    text-decoration:none;
+
+}
+#contact a{
+    text-decoration:none;
+
+}
+#welcome-section{
+  height:100vmin;
+}
+.contact{
+  list-style-type:none;
+  padding:20px;
+  font-size:25px;
+  font-family:poppins,sans-serif;
+  color:white;
+  height:60px;
+  margin-top:-16px;
+}
+.contact:hover{
+  color:pink;
+  animation-duration:.25s;
+  animation-name:contact;
+}
+
+.about-me{
+  text-align:center;
+  margin-top:500px;
+  background-color:beige;
+  font-family:poppins,sans-serif;
+  border:5px solid black;
+  border-radius:15px;
+}
+.navleft{
+  float:left;
+  list-style-type:none;
+  padding:20px;
+  font-size:25px;
+  font-family:poppins,sans-serif;
+  color:white;
+  height:60px;
+  margin-top:-16px;
+}
+.navleft:hover{
+  background-color:black;
+  animation-duration:.25s;
+  animation-name:navleft;
+}
+
+.main-section{
+}
+.project-holder{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding:1px;
+  grid-gap:4rem;
+  
+ 
+}
+.project-tile{
+  float:left;
+  list-style-type:none;
+  text-align:center; 
+  padding:20px;
+  background-color:#FFF0D2;
+  border:3px solid black;
+  color:black;
+  font-family:raleway,sans-serif;
+  width:300px;
+  height:300pxl
+}
+.project-tile:hover{
+  background-color:white;
+  animation-duration:.25s;
+  animation-name:project-tile;
+}
+@keyframes project-tile{
+  from{background-color:#FFF0D2};
+    to{background-color:white};
+}
+@keyframes navleft{
+  from{background-color:#be3144};
+    to{background-color:black};
+}
+@keyframes contact{
+  from{color:white};
+    to{color:hotpink};
+}
+@media only screen max(800px){
+  margin-left:50px;
+}
+</style>
